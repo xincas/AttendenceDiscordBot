@@ -23,7 +23,7 @@ async def on_ready():
 @bot.command()
 async def посещения(ctx, ch, start, end):
   # Упоковка всех каналов сервера в словарь
-  channels = [channel for channel in ctx.guild.channels]
+  channels = [channel for channel in ctx.guild.voice_channels]
   c_names = [chs.name for chs in channels]
   dic_ch = dict(zip(c_names, channels))
 
