@@ -1,6 +1,6 @@
 # AttendenceDiscordBot
 
-# Установка Linux
+## Установка Linux
 
 Клонировать репозиторий:
 ```
@@ -23,7 +23,7 @@ $ export TOKEN="your token"
 $ sh start.sh
 ```
 
-# Как использовать
+## Как использовать
 
 В чате логирования использовать команду `!посещения (channel_name) (time_start) (time_end)`.
 
