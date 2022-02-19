@@ -2,6 +2,12 @@
 
 # Установка Linux
 
+Клонировать репозиторий:
+```
+$ git clone https://github.com/xincas/AttendenceDiscordBot.git
+$ cd AttendenceDiscordBot/
+```
+
 Установить библиотеку discord:
 ```
 $ pip install discord
